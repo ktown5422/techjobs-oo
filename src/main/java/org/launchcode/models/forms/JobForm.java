@@ -18,9 +18,14 @@ public class JobForm {
     @NotNull
     @Size(min=1, message = "Name may not be empty")
     private String name;
-
     @NotNull
     private int employerId;
+    @NotNull
+    private int locationId;
+    @NotNull
+    private int coreCompetencyId;
+    @NotNull
+    private int positionTypeId;
 
     /*
         TODO #3 - Included other fields needed to create a job,
