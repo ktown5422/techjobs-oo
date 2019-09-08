@@ -86,8 +86,35 @@ public class JobForm {
         return coreCompetencies;
     }
 
-    public void setCoreCompetencies(ArrayList<CoreCompetency> coreCompetencies) {
+
+    public int getLocationId() {
+        return locationId;
+    }
+
+    public void setLocationId(int location) {
+        this.locationId = location;
+    }
+
+    public int getCoreCompetencyId() {
+        return coreCompetencyId;
+    }
+
+    public void setCoreCompetencyId(int coreCompetency) {
+        this.coreCompetencyId = coreCompetency;
+    }
+
+    public int getPositionTypeId() {
+        return positionTypeId;
+    }
+
+    public void setPositionTypeId(int positionType) {
+        this.positionTypeId = positionType;
+    }
+
+    public void setCoreCompetenciesId(ArrayList<CoreCompetency> coreCompetencies) {
         this.coreCompetencies = coreCompetencies;
+
+
     }
 
     public ArrayList<PositionType> getPositionTypes() {
